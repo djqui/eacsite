@@ -1,0 +1,124 @@
+:root {
+    --clr-primary: #8a0000;
+    --clr-secondary: #e0DEDE;
+    --font-primary: "Instrument Serif", serif;
+    --font-secondary: "Archivo Narrow", sans-serif;
+}
+
+.bg-clr-primary {
+    background-color: var(--clr-primary);
+}
+
+.bg-clr-secondary {
+    background-color: var(--clr-secondary);
+}
+
+.txt-clr-primary {
+    color: var(--clr-primary);
+}
+
+.ff-primary {
+    font-family: var(--font-primary);
+}
+
+.ff-primary-italic {
+    font-family: var(--font-primary);
+    font-style: italic;
+}
+
+.ff-secondary {
+    font-family: var(--font-secondary);
+}
+
+.btn-primary {
+    background-color: white;
+    border-radius: 2rem;
+    border: white solid 1px;
+    color: var(--clr-primary);
+    padding-inline: 1rem;
+    padding-block: .2rem;
+}
+
+.btn-primary:hover {
+    background-color: var(--clr-primary);
+    border: var(--clr-primary) solid 1px;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: var(--clr-primary);
+    border-radius: 2rem;
+    border: white solid 1px;
+    color: white;
+    padding-inline: 1rem;
+    padding-block: .2rem;
+}
+
+.btn-secondary:hover {
+    background-color: white;
+    border: white solid 1px;
+    color: var(--clr-primary);
+}
+
+.nav-btn-left {
+    width: 45px;
+    height: 45px;
+    background-color: var(--clr-primary);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    opacity: 0.9;
+}
+
+.nav-btn-right {
+    width: 45px; 
+    height: 45px; 
+    background-color: var(--clr-primary); 
+    border-radius: 50%; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    right: 10px; 
+    opacity: 0.9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.spinner-border {
+    display: none; /* Hide spinner by default */
+}
+
+#refreshCheckbox:checked + .spinner-border {
+    display: inline-block; /* Show spinner when checkbox is checked */
+}
+
+.btn-bdr-rds {
+    border-radius: 2rem;
+}

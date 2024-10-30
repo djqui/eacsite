@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emilio Aguinaldo College</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header class="bg-clr-primary text-white text-center pt-4 pb-3">
+        <img src="assets/Emilio_Aguinaldo_College_seal.svg" alt="" style="height: 100px;">
+        <h1 class="ff-primary pt-3">Welcome to Emilio Aguinaldo College</h1>
+        <p class="ff-secondary">The World Starts Here</p>
+    </header>   
+
+    <nav class="navbar navbar-expand-lg ff-secondary bg-clr-secondary">
+        <ul class="navbar-nav container-fluid justify-content-center">
+            <li class="nav-item col-sm-1">
+                <a class="nav-link text-center" href="#">Home</a>
+            </li>
+            <li class="nav-item col-sm-1">
+                <a class="nav-link text-center" href="#About Us">About Us</a>
+            </li>
+            <li class="nav-item col-sm-1">
+                <a class="nav-link text-center" href="#eventsSection">Events</a>
+            </li>
+            <li class="nav-item col-sm-1">
+                <a class="nav-link text-center" href="#">Facilities</a>
+            </li>
+            <li class="nav-item col-sm-1 dropdown">
+                <a class="nav-link text-center" href="#">Language</a>
+                <div class="dropdown-content">
+                    <a href="#">English</a>
+                    <a href="#">Chinese</a>
+                    <a href="#">Hindi</a>
+                    <a href="#">Korean</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container-fluid mt-3 ff-secondary" style="width: 95%;">
+        <div class="container-fluid mt-3 mb-3">
+            <h3 class="ff-primary txt-clr-primary text-center">Registration Status</h3>
+            <div class="progress" style="height: 30px;">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                    Registration 70% Complete
+                </div>
+            </div>
+        </div>
+
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Important!</strong> Registration for the upcoming semester ends on <strong>September 30, 2024</strong>.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <div class="alert alert-info alert-dismissible fade show" role="alert">
+            <strong>Reminder:</strong> Orientation for new students will be held on <strong>October 5, 2024</strong>.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </div>
+    
+    <div class="container-fluid mt-4 p-4">
+        <h2 class="ff-primary txt-clr-primary text-center">EAC Gallery</h2>
+        <div class="row m-auto">
+            <div class="col-lg d-flex justify-content-center align-items-center p-3">
+                <img src="assets/eac1.jpg" class="img-fluid" height="200px" alt="EAC Image 1">
+            </div>
+            <div class="col-lg d-flex justify-content-center align-items-center p-3">
+                <img src="assets/eac2.jpg" class="img-fluid" height="200px" alt="EAC Image 2">
+            </div>
+            <div class="col-lg d-flex justify-content-center align-items-center p-3">
+                <img src="assets/eac3.jpg" class="img-fluid" height="200px" alt="EAC Image 3">
+            </div>
+        </div>
+        <div class="row m-auto">
+            <div class="col-lg d-flex justify-content-center align-items-center p-3">
+                <img src="assets/eac4.jpg" class="img-fluid" height="200px" alt="EAC Image 4">
+            </div>
+            <div class="col-lg d-flex justify-content-center align-items-center p-3">
+                <img src="assets/eac5.jpg" class="img-fluid" height="200px" alt="EAC Image 5">
+            </div>
+            <div class="col-lg d-flex justify-content-center align-items-center p-3">
+                <img src="assets/eac6.jpg" class="img-fluid" height="200px" alt="EAC Image 6">
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid mt-3 p-3 mb-5 bg-clr-secondary">
+        <h2 class="ff-primary txt-clr-primary text-center mb-3">Featured Images</h2>
+        <div id="caro" class="carousel slide" data-bs-ride="carousel">
+            
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#caro" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#caro" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#caro" data-bs-slide-to="2"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/crsl1.jpg" alt="Carousel Image 1" class="d-block mx-auto" style="width: 50%;">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/crsl2.jpg" alt="Carousel Image 2" class="d-block mx-auto" style="width: 50%;">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/crsl3.jpg" alt="Carousel Image 3" class="d-block mx-auto" style="width: 50%;">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev nav-btn-left" type="button" data-bs-target="#caro" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next nav-btn-right" type="button" data-bs-target="#caro" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+    
+    <div id="About Us" class="container-fluid mt-3 p-3 mb-5">
+    <h2 class="ff-primary txt-clr-primary text-center mb-3">About Us</h2>
+    <div class="row m-auto">
+        <div class="col-md-4">
+            <div class="card-header bg-clr-primary text-white text-center ff-primary p-2">
+                <h3>Mission</h3>
+            </div>
+            <div class="h-75 class-body p-3 bg-clr-secondary ff-secondary text-center d-flex align-items-center justify-content-center" style="height: 200px;">
+                <p>Emilio Aguinaldo College provides a learner-centered, inquiry-based, and socially relevant academic community.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card-header bg-clr-primary text-white text-center ff-primary p-2">
+                <h3>Vision</h3>
+            </div>
+            <div class="h-75 class-body p-3 bg-clr-secondary ff-secondary text-center d-flex align-items-center justify-content-center" style="height: 200px;">
+                <p>Emilio Aguinaldo College envisions itself as an internationally recognized private non-sectarian academic institution rooted in the Filipino nationalist tradition that consistently pursues the advancement and welfare of humanity.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card-header bg-clr-primary text-white text-center ff-primary p-2">
+                <h3>Core Values</h3>
+            </div>
+            <div class="h-75 class-body p-3 bg-clr-secondary ff-secondary text-center d-flex align-items-center justify-content-center" style="height: 200px;">
+                <p>Virtue, Excellence, and Service</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="container-fluid mt-3 p-3 mb-5 bg-clr-secondary" id="eventsSection">
+        <h2 class="ff-primary txt-clr-primary text-center">Upcoming Events</h2>
+        <div class="p-3 text-center">
+            <table class="table table-striped ff-secondary text-center mt-3">
+                <thead>
+                    <tr>
+                        <th>Event</th>
+                        <th>Date</th>
+                        <th>Attendees</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody id="eventsTableBody">
+                    <tr>
+                        <td>Holy Mass</td>
+                        <td>October 30, 2024</td>
+                        <td>All Departments</td>
+                        <td><button class="btn txt-clr-primary" data-bs-toggle="modal" data-bs-target="#eventModal" onclick="showEventDetails('Holy Mass', 'Join us for a Holy Mass for reflection and unity among all departments.')">View Details</button></td>
+                    </tr>
+                    <tr>
+                        <td>Nursing Week</td>
+                        <td>November 21, 2024</td>
+                        <td>Nursing Students Only</td>
+                        <td><button class="btn txt-clr-primary" data-bs-toggle="modal" data-bs-target="#eventModal" onclick="showEventDetails('Nursing Week', 'Celebrate Nursing Week with workshops, guest lectures, and fun activities.')">View Details</button></td>
+                    </tr>
+                    <tr>
+                        <td>MedTech Week</td>
+                        <td>December 5, 2024</td>
+                        <td>MedTech Students Only</td>
+                        <td><button class="btn txt-clr-primary" data-bs-toggle="modal" data-bs-target="#eventModal" onclick="showEventDetails('MedTech Week', 'Participate in MedTech Week with training sessions, presentations, and industry talks.')">View Details</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="d-flex flex-column align-items-center mt-3">
+                <input type="checkbox" id="refreshCheckbox" style="display: none;">
+                <div class="spinner-border" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <label for="refreshCheckbox" class="btn btn-primary ff-secondary mt-3">Refresh Events</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="eventModal" tabindex="-1" aria-labelledby="eventModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="eventModalLabel">Event Details</h5>
+                </div>
+                <div class="modal-body">
+                    <p id="eventDescription">Event details will be displayed here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-3 p-3 mb-5 bg-clr-primary ff-primary">
+        <h2 class="ff-primary text-white text-center">School Facilities</h2>
+        <div>
+            <ul class="list-group ff-secondary">
+                <li class="list-group-item">Computer Laboratories</li>
+                <li class="list-group-item">Olympic-sized Pool</li>
+                <li class="list-group-item">Gymnasium</li>
+                <li class="list-group-item">Baskerball Court</li>
+                <li class="list-group-item">Fitness Center</li>
+                <li class="list-group-item">Indoor Running Track</li>
+                <li class="list-group-item">State of the Art Theater</li>
+              </ul>
+        </div>
+        <div class="ff-secondary d-flex flex-column align-items-center mt-3">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+              </ul>
+        </div>
+    </div>
+    
+    <div class="container-fluid mt-3 p-3 mb-5 bg-clr-secondary ff-secondary">
+        <h2 class="ff-primary txt-clr-primary text-center">Send us a Feedback</h2>
+        <form>
+            <div class="mb-2">
+                <label for="name" class="txt-clr-primary form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="mb-2">
+                <label for="email" class="txt-clr-primary form-label">Email</label>
+                <input type="email" class="form-control" id="name" placeholder="Your Email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="txt-clr-primary form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <div class="d-flex justify-content-between">
+                <button type="submit" class="btn-primary">Submit</button>
+                <button type="reset" class="btn-secondary">Reset</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="toast" id="successToast" style="position: fixed; top: 20px; right: 20px; z-index: 1050;" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            <strong class="me-auto">Success</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+            Your message has been successfully submitted!
+        </div>
+    </div>
+
+    <footer class="bg-clr-primary text-white text-center p-4">
+        <h3 class="ff-primary">Connect with Us</h2>
+        <div class="social-icons">
+            <a href="https://instagram.com" target="_blank" data-bs-toggle="tooltip" title="Follow us on Instagram" class="social-icon">
+                <i class="fa-brands fa-instagram fa-xl m-1" style="color: white;"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" data-bs-toggle="tooltip" title="Like us on Facebook" class="social-icon">
+                <i class="fa-brands fa-facebook fa-xl m-1" style="color: white;"></i>
+            </a>
+            <a href="https://x.com" target="_blank" data-bs-toggle="tooltip" title="Follow us on Twitter/X" class="social-icon">
+                <i class="fa-brands fa-twitter fa-xl m-1" style="color: white;"></i>
+            </a>
+        </div>
+        <div class="mt-3">
+            <a href="#" style="min-max-width: 15%;" class="ff-secondary btn btn-outline-light btn-bdr-rds m-1">Contact Number</a>
+            <a href="#" style="min-max-width: 15%;" class="ff-secondary btn btn-outline-light btn-bdr-rds m-1">Email Address</a>
+        </div>
+    </footer>
+    
+    <script src="bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function showEventDetails(eventName, description) {
+            // Update modal title
+            document.getElementById('eventModalLabel').textContent = eventName;
+            // Update modal description
+            document.getElementById('eventDescription').textContent = description;
+        }
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var form = document.querySelector('form');
+            var toastEl = document.getElementById('successToast');
+            var toast = new bootstrap.Toast(toastEl);
+
+            form.addEventListener('submit', function(event) {
+                event.preventDefault(); // Prevent the default form submission
+        
+                // Here you can add your form submission logic (e.g., AJAX request)
+        
+                // Show the toast notification
+                toast.show();
+        
+                // Optionally, reset the form after submission
+                this.reset();
+            });
+        });
+    </script>
+
+</body>
+</html>
